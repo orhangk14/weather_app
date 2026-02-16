@@ -137,6 +137,8 @@ def main():
     print("  🌤️  Welcome to the Python Weather App!")
     print("=" * 50)
 
+    units = "metric"  # default
+
     while True:
         print("\nOptions:")
         print("  1️⃣  Get Current Weather")
@@ -146,7 +148,7 @@ def main():
         print("  5️⃣  Exit")
 
         choice = input("\nEnter your choice (1-5): ").strip()
-        units = "metric"  # default
+       
 
         if choice == "5":
             print("\n👋 Goodbye! Stay weather-aware!")
